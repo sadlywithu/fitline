@@ -1,0 +1,1264 @@
+@import url(./fonts.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Manrope-b";
+    text-decoration: none;
+
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.knopochki{
+    display: flex;
+    gap: 30px;
+}
+
+.znachki i{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 12px;
+}
+
+body{
+    overflow-x: hidden;
+    background-image:linear-gradient(#ffffff, #e7e5e5ad);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.fitness{
+    display: flex;
+}
+
+.platforma{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.tren{
+    font-size: 30px;
+}
+.foto img{
+    border-radius: 15px;
+}
+.tren2{
+    font-size: 20px;
+}
+
+.knopka button{
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 50px;
+    width: 40%;
+    outline: 1px solid #3586ff;
+    outline-offset: 3px;
+    margin-top: 30px;
+}
+
+.jenshini{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jenshini1{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 30%;
+    
+}
+
+.jenshini1 h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.jenshini1 .a{
+    display: flex;
+    justify-content: center;
+}
+.jenshini3 h3{
+    padding-top: 10px;
+}
+
+.jenshini3{
+    width: calc(100%/3);
+}
+.jenshini3 h5{
+    padding-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.knopka1 button{
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    outline: 1px solid #3586ff;
+    outline-offset: 3px;
+    margin-top: 30px;
+    
+}
+
+.knopka1{
+    display: flex;
+    justify-content: center;
+}
+
+.besplatno{
+    background-image: url(../imgs/5.jpg);
+    height: 490px;
+    display: flex;
+}
+
+.textt{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 70px;
+}
+
+.textt h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.online-kyrs{
+    display: flex;
+    gap: 30px;
+}
+
+.b{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reiting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    gap: 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+    font-size: 12px;
+}
+
+.nedeli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    gap: 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+    font-size: 11px;
+}
+
+.opaat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.texttt{
+    width: 570px;
+    height: 350px;
+}
+
+
+.texttt h1{
+    font-size: 40px;
+    font-family: "Manrope-b";
+}
+
+.t h3{
+    font-family: "Semi-b";
+    font-size: 15px;
+}
+
+.t{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.knopka2 button{
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 60px;
+    width: 250px;
+    outline: 1px solid #3586ff;
+    outline-offset: 3px;
+}
+
+.lydi{
+    display: flex;
+    margin-top: 30px;
+}
+
+.textttt h4{
+    width: 300px;
+    font-family: "Semi-b";
+}
+
+
+.jenshini3{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 250px;
+
+    
+}
+
+.jenshini3 h3{
+    display: flex;
+    justify-content: center;
+}
+
+.jenshini3 h5{
+    display: flex;
+    justify-content: center;
+}
+
+.jenshini3 .a{
+    display: flex;
+    justify-content: center;
+}
+
+.jenshini2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.jenshini3 img{
+    margin-top: 20px;
+}
+
+
+
+.treniri button:nth-child(1){
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 60px;
+    width: 180px;
+    margin-right: 20px;
+}
+
+.treniri button:nth-child(2){
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    height: 60px;
+    width: 180px;
+    margin-right: 20px;
+}
+
+.treniri button:nth-child(3){
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    height: 60px;
+    width: 180px;
+}
+
+.section-platforma{
+    background-color: #ffffff;
+}
+
+.fitfit{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fitfit h1{
+    font-size: 40px;
+}
+
+.fitfit h5{
+    font-size: 16px;
+    font-family: "Semi-b";
+}
+
+.platforma1 button{
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 60px;
+    width: 250px;
+    outline: 1px solid #3586ff;
+    outline-offset: 3px;
+    margin-top: 130px;
+}
+
+.platforma1{
+    width: 600px;
+}
+
+.kak{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.ystala{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cini{
+    background-color: #3586ff;
+    width: 60px;
+    border-radius: 5px;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.chto{
+    margin-top: 20px;
+}
+
+.aloha{
+    margin-top: 20px;
+    font-family: "Semi-b";
+    font-size: 17px;
+}
+
+.pitanie{
+    background-image: linear-gradient(#f7f7f7, #c7c5c5d5);
+    border-radius: 20px;
+}
+
+.pit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.plan h1{
+    font-size: 40px;
+}
+
+.plan h3{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: "Semi-b";
+    text-align: center;
+}
+
+.regis{
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.rassilka{
+    width: 540px;
+    margin-top: 20px;
+
+}
+
+.but button{
+    background-color: #3586ff;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 60px;
+    width: 250px;
+    outline: 1px solid #3586ff;
+    outline-offset: 3px;
+    
+}
+
+.but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.regis .input-auths{
+    border: 2px solid #e2e2e2;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    
+}
+
+.e-mail .input-auths{
+    border: 2px solid #e2e2e2;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 50px;
+    width: 540px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.e-mail{
+    margin-top: 20px;
+}
+
+
+pre{
+    margin-top: 20px;
+    font-family: "Semi-b";
+}
+
+.rassilka h4{
+    font-family: "Semi-b";
+}
+
+#acc1{
+    margin-right: 10px;
+}
+
+#acc2{
+    margin-right: 10px;
+}
+#acc3{
+    margin-right: 10px;
+}
+
+.yprprpr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sochseti img{
+    margin-left: 20px;
+}
+
+.sochseti img:nth-child(2){
+    margin-bottom: 4px;
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+
+    .besplatno {
+        background-image: url(../imgs/5.jpg);
+        height: 490px;
+        width: 100%;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .texttt {
+        width: 370px;
+        height: 350px;
+    }
+
+    .foto img{
+        height: 300px;
+    }
+
+    .knopka2 button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 40px;
+        width: 200px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+    }
+
+    .texttt h1 {
+        font-size: 30px;
+        font-family: "Manrope-b";
+    }
+
+    .opaat {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .t {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .jenshini2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-left: 50px;
+    }
+
+    .jenshini3 {
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 180px;
+    }
+
+    .jenshini3 h5 {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .jenshini3 img {
+        margin-top: 20px;
+        height: 200px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+
+    .foto1 img{
+        height: 350px;
+    }
+
+    .tren {
+        font-size: 20px;
+    }
+
+    .tren2 {
+        font-size: 15px;
+    }
+
+    .knopka button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 50px;
+        width: 180px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+        margin-top: 30px;
+    }
+
+    .besplatno {
+        background-image: url(../imgs/5.jpg);
+        height: 490px;
+        width: 100%;
+        display: flex;
+    }
+
+    .foto img {
+        height: 220px;
+    }
+
+    .texttt {
+        width: 300px;
+        height: 350px;
+    }
+
+    .knopka2 button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 40px;
+        width: 150px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+    }
+
+    .reiting {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #ffffff;
+        gap: 10px;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .nedeli {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #ffffff;
+        gap: 10px;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .jenshini3 {
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 150px;
+    }
+
+    .jenshini3 img {
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .jenshini3 h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .jenshini3 h5 {
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+    }
+
+    .jenshini2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .treniri button:nth-child(1) {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 40px;
+        width: 150px;
+        margin-right: 20px;
+    }
+
+    .treniri button:nth-child(2) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 150px;
+        margin-right: 20px;
+    }
+
+    .treniri button:nth-child(3) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 150px;
+        margin-right: 20px;
+    }
+
+    .textttt h4 {
+        width: 200px;
+        font-family: "Semi-b";
+        font-size: 14px;
+    }
+
+    .fotoo img{
+        height: 300px;
+    }
+
+    .fitfit h1 {
+        font-size: 30px;
+    }
+
+    .fitfit h5 {
+        font-size: 12px;
+        font-family: "Semi-b";
+    }
+
+    .platforma1 button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 60px;
+        width: 250px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+        margin-top: 70px;
+    }
+
+    .fitfit {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .aloha {
+        margin-top: 20px;
+        font-family: "Semi-b";
+        font-size: 12px;
+    }
+
+    .chto{
+        font-size: 15px;
+    }
+
+    
+
+
+}
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+
+    .knopochki {
+        display: flex;
+        gap: 10px;
+    }
+
+    .foto1 img {
+        height: 250px;
+    }
+
+    .tren {
+        font-size: 15px;
+    }
+
+    .tren2 {
+        font-size: 12px;
+    }
+
+    .jenshini {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .jenshini1{
+        
+        border-radius: 30px;
+        width: 50%;
+        
+    }
+
+    .online-kyrs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .foto img {
+        height: 310px;
+    }
+
+    .texttt {
+        width: 500px;
+        height: 250px;
+    }
+
+    .opaat {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .treniri button:nth-child(1) {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 40px;
+        width: 120px;
+        margin-right: 20px;
+    }
+    .treniri button:nth-child(2) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 120px;
+        margin-right: 20px;
+    }
+    .treniri button:nth-child(3) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 120px;
+        margin-right: 20px;
+    }
+
+    .lydi {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .textttt h4 {
+        width: 500px;
+        font-family: "Semi-b";
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .treniri{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fitfit {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .fotoo img {
+        height: 355px;
+    }
+
+    .platforma1 {
+        width: 485px;
+    }
+
+    .platforma1 button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 60px;
+        width: 250px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ystala {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .yprprpr h4{
+        font-size: 10px;
+    }
+
+    .plan h1 {
+        font-size: 20px;
+    }
+
+    .plan h3 {
+        margin-top: 20px;
+        font-size: 12px;
+        font-family: "Semi-b";
+        text-align: center;
+    }
+
+    .plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .aaaaa{
+        width: 400px;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #e2e2e2;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        height: 30px;
+        width: 150px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .e-mail .input-auths {
+        border: 2px solid #e2e2e2;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        height: 50px;
+        width: 400px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .regis {
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .rassilka {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .but {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+
+    .knopochki {
+        display: flex;
+        flex-direction: column;
+    }
+    .fit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fitness {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .platforma {
+        width: 420px;
+    }
+
+    .foto1 img {
+        height: 300px;
+    }
+
+    .knopka button {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 50px;
+        width: 180px;
+        outline: 1px solid #3586ff;
+        outline-offset: 3px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .jenshini1 .a{
+
+        border-radius: 30px;
+        width: 70%;
+    }
+
+    .foto img {
+        height: 250px;
+        
+    }
+
+    .texttt {
+        width: 400px;
+        height: 300px;
+    }
+
+    .textttt h4 {
+        width: 400px;
+        font-family: "Semi-b";
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .jenshini3 h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .jenshini3 h5 {
+        display: flex;
+        justify-content: center;
+        font-size: 5px;
+    }
+
+    .platforma1 {
+        width: 400px;
+    }
+
+    .fotoo img {
+        height: 300px;
+    }
+
+    .sochseti img {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 98%;
+    }
+
+    .znachki i {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 12px;
+    }
+    
+    .platforma {
+        width: 100%;
+    }
+
+    .foto1 img {
+        height: 200px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .jenshini1 {
+        background-color: #80808041;
+        border-radius: 30px;
+        width: 90%;
+    }
+
+    .textt {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-left: 10px;
+    }
+
+    .textt h1 {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .texttt {
+        width: 260px;
+        height: 300px;
+    }
+
+    .reiting {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        gap: 10px;
+        border-radius: 10px;
+        height: 50px;
+        width: 120px;
+        font-size: 8px;
+    }
+
+    .nedeli {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        gap: 10px;
+        border-radius: 10px;
+        height: 50px;
+        width: 120px;
+        font-size: 8px;
+    }
+
+    .treniri button:nth-child(1) {
+        background-color: #3586ff;
+        border-radius: 10px;
+        color: #ffffff;
+        height: 40px;
+        width: 80px;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+
+    .treniri button:nth-child(2) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 80px;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+
+    .treniri button:nth-child(3) {
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #000000;
+        height: 40px;
+        width: 80px;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+
+    .textttt h4 {
+        width: 260px;
+        font-family: "Semi-b";
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .jenshini2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .platforma1 {
+        width: 260px;
+    }
+
+    .fotoo img {
+        height: 190px;
+    }
+
+    .kak {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 100px;
+    }
+
+    .plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 260px;
+        margin-top: 50px;
+    }
+
+    .plan h1 {
+        font-size: 15px;
+    }
+
+    .regis {
+        display: flex;
+        width: 260px;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #e2e2e2;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .e-mail .input-auths {
+        border: 2px solid #e2e2e2;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        height: 50px;
+        width: 260px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .rassilka {
+        width: 260px;
+        margin-top: 20px;
+    }
+
+
+    .aaaaa {
+        width: 260px;
+    }
+
+    pre {
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: "Semi-b";
+    }
+
+
+}
+
+
+
+
